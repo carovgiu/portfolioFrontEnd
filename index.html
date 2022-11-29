@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- lo de abajo es lo que une el html con el css -->
     <link rel="stylesheet" href="../PortfolioFrotnEnd/styles.css">
+    <!-- lo de abajo es lo que permite qur funcione bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- lo de abajo es lo que permite que funcione font awesome (los iconos de redes sociales) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -15,6 +18,7 @@
             <img src="../PortfolioFrotnEnd/Img/logoAP.png" alt="">
         
         <div id="redes">
+            <!-- al div este le puse un id redes para poder juntarlos y moverlos a la derecha todos juntos  -->
             <a href=""><i class="fa fa-linkedin" style="font-size:28px;color:white"></i></a>
             <a href=""><i class="fa fa-twitter" style="font-size:28px;color:white"></i></a>
             <a href=""><i class="fa fa-instagram" style="font-size:28px;color:white"></i></a>
@@ -22,6 +26,30 @@
             <a href=""><i class="fa fa-facebook-official" style="font-size:28px;color:white"></i></a>
         </div>
         
+
+    </div>
+    <div id="banner">
+        <img id="imgBanner" src="../PortfolioFrotnEnd/Img/banner.png" class="img-fluid">
+    </div>
+    <div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <img src="../PortfolioFrotnEnd/Img/fotoPerfil.jpg" class="img-fluid" id="fotoPerfil">
+            </div>
+
+            <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+                <p id="nombre">Carolina V. Giuliani</p>
+                <p id="titulo">Full Stack Developer Jr.</p>
+            </div>
+
+            <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
+                <span>
+                    <h1 id="acercaDeMi">Acerca de mí</h1>
+                    <p id="acercaDeMi">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas iste ad officia saepe iure error odio. Tempore minus voluptas magni labore temporibus rem quibusdam, asperiores veniam expedita et nostrum beatae.</p>
+                </span>
+            </div>
+
+        </div>
 
     </div>
 </body>
